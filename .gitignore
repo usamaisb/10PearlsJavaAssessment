@@ -20,7 +20,7 @@
 *.rar
 out/
 .idea/
-.target/
+target/
 .idea_modules/
 *.iml
 *.ipr
