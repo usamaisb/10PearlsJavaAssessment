@@ -3,7 +3,7 @@
  1. _Git_ <br/>
  1. _Maven_ <br/><br/>
 
-[Clone the Git repo](https://github.com/usamaisb/AssessmentJava.git) <br />
+[Clone the Git repo](https://github.com/usamaisb/10PearlsJavaAssessment.git) <br />
 **In project folder where the POM xml file is located execute the following maven command:**<br />
 _mvn -Dtest=AssessmentTest#ExecuteAssesmentTest test_<br />
 
