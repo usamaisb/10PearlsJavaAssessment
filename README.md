@@ -5,7 +5,7 @@
 
 [Clone the Git repo](https://github.com/usamaisb/10PearlsJavaAssessment.git) <br />
 **In project folder where the POM xml file is located execute the following maven command:**<br />
-_mvn -Dtest=AssessmentTest#ExecuteAssesmentTest test_<br />
+_mvn -Dtest=JavaAssessmentTest#ExecuteAssessmentTest test_<br />
 
 **Or Alternatively you can import the Project in IntelliJ IDEA**<br />
 _Execute the test “JavaAssessmentTest” in src/test/java._<br />
