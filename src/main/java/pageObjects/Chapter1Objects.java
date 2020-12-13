@@ -11,8 +11,8 @@ import org.testng.Assert;
 public class Chapter1Objects {
     private static String getResultText;
     private static String chapter1Text = "If you have arrived here then you have installed Selenium IDE and are ready to start recording your first test";
-    public static String chapter1TextLoc = "/html/body/div[2]/p[1]";
-    public static String HomePageLoc = "Home Page";
+    private static String chapter1TextLoc = "/html/body/div[2]/p[1]";
+    private static String HomePageLoc = "Home Page";
 
     public static void verifyChapter1PageText() {
         $(By.xpath(chapter1TextLoc)).shouldBe(Condition.visible);

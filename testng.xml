@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JavaTest">
+
+    <test name="ExecuteAssessmentTest">
+        <classes>
+            <class name="JavaAssessmentTest" />
+        </classes>
+    </test>
+
+</suite>

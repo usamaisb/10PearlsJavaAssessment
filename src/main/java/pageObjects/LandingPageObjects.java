@@ -7,8 +7,8 @@ import org.testng.Assert;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LandingPageObjects {
-    public static String baseTextloc = "/html/body/div[1]";
-    public static String chapter1Loc = "Chapter1";
+    private static String baseTextloc = "/html/body/div[1]";
+    private static String chapter1Loc = "Chapter1";
     private static String HomePageText = "Selenium: Beginners Guide";
     private static String getResultText;
 
