@@ -10,15 +10,14 @@ import org.testng.Assert;
 
 public class Chapter1Objects {
     private static String getResultText;
-    private static String chapter1Text = "If you have arrived here then you have installed Selenium IDE and are ready to start recording your first test";
-    private static String chapter1TextLoc = "/html/body/div[2]/p[1]";
+    private static String chapter1Text = "Assert that this text is on the page";
+    private static String chapter1TextLoc = "divontheleft";
     private static String HomePageLoc = "Home Page";
 
     public static void verifyChapter1PageText() {
-        $(By.xpath(chapter1TextLoc)).shouldBe(Condition.visible);
-        getResultText = $(By.xpath(chapter1TextLoc)).getText();
-        Assert.assertTrue(getResultText.
-                        contains(chapter1Text),
+        $(By.id(chapter1TextLoc)).shouldBe(Condition.visible);
+        getResultText = $(By.id(chapter1TextLoc)).getText();
+        Assert.assertEquals(getResultText, chapter1Text,
                 "Chapter1 page text not found");
     }
 
