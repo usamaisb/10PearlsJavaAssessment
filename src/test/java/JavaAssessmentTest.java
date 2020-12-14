@@ -12,11 +12,11 @@ public class JavaAssessmentTest {
 
     @BeforeTest(alwaysRun = true)
     public void setUp() {
-        Base.Chrome_Driver();
+        Base.chrome_Driver();
     }
 
     @Test
-    public void ExecuteAssessmentTest() {
+    public void executeAssessmentTest() {
         open(Base.getBaseUrl());
         LandingPageObjects.verifyBasePageText();
         LandingPageObjects.navigateToChapter1();

@@ -8,7 +8,7 @@ public class Base {
         return baseUrl;
     }
 
-    public static void Chrome_Driver() {
+    public static void chrome_Driver() {
         System.setProperty("selenide.browser", "Chrome");
     }
 }
